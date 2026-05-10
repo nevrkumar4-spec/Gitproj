@@ -38,7 +38,7 @@ __pycache__	README.md	venv
 
 ![alt text](image-3.png)
 
-Question 2 :
+Question 2 :Working with Changes & History
 
 Add some new fucntion in the exiting app.py
 
@@ -54,3 +54,21 @@ Run the file >>python3 app.py
 Open the browser and type the url as http://127.0.0.1:5000/query/6
  out put should come as follows
  ![alt text](image-4.png)
+
+Question 3: Branching & Feature Development
+
+Type the command on the git =bash as 
+>> git checkout -b featurebranch
+
+Now modify the app.py with additional function for summ of two inout parameters
+
+@app.route("/addition/<inputA>/<inputB>")    
+def addition(inputA,inputB):
+    return f"The sum of given input numbers are:{int(inputA)+int(inputB)}"
+Run the command in Terminal
+>> python3 app.py
+Provide the input values as follows
+
+https://127.0.0.1:5000/addition/2/3
+ output will display on the browser as 
+The sum of given input numbers are : 5

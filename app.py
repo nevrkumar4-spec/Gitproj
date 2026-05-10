@@ -22,5 +22,8 @@ def query(json_user_input):
         return f" The request variable is even "
     else:
         return f"The request variable is odd"
-    
+
+@app.route("/addition/<inputA>/<inputB>")    
+def addition(inputA,inputB):
+    return f"The sum of given input numbers are :{int(inputA)+int(inputB)}"
 app.run()

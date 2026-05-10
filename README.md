@@ -72,3 +72,16 @@ Provide the input values as follows
 https://127.0.0.1:5000/addition/2/3
  output will display on the browser as 
 The sum of given input numbers are : 5
+
+To update the modified files
+>> git add Readme.md app.py
+>>git commit
+
+Check the branches
+>> git branch
+Now chekcout the main and switch to branch 
+>>git chekcout main
+
+>> git merge featurebranch 
+
+>> git push origin main

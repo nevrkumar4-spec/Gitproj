@@ -39,3 +39,18 @@ __pycache__	README.md	venv
 ![alt text](image-3.png)
 
 Question 2 :
+
+Add some new fucntion in the exiting app.py
+
+@app.route("/query/<json_user_input>")
+def query(json_user_input):
+    if ( int(json_user_input) % 2 == 0):
+        return f" The request variable is even "
+    else:
+        return f"The request variable is odd"
+    
+Run the file >>python3 app.py
+
+Open the browser and type the url as http://127.0.0.1:5000/query/6
+ out put should come as follows
+ ![alt text](image-4.png)

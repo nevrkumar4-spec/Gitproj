@@ -25,6 +25,7 @@ Already up to date.
 nevkumar@NEVs-MacBook-Air Gitproj % ls
 __pycache__	README.md	venv
 
+
 5. Goto VSCode
    create a app.py under the dirctory workspace Gitproj
    steps to run the flask commands
@@ -34,3 +35,7 @@ __pycache__	README.md	venv
     Run the app.py with following command in terminal
     python3 app.py
 ![alt text](image-2.png)
+
+![alt text](image-3.png)
+
+Question 2 :

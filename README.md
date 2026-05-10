@@ -85,3 +85,36 @@ Now chekcout the main and switch to branch
 >> git merge featurebranch 
 
 >> git push origin main
+
+
+To delete the branch forcefully type the command
+
+ git branch -d featurebranch
+
+ To chekc the branch is deleted or not type
+
+>>git branch
+
+
+Question 4: Handling Errors (Stash, Reset, Revert)
+
+Made some changes in the code app.py and Save the file and try to run which will be able to find find the error 
+
+try to push without commit
+
+>> git stash push -m "WIP: incomplete feature"
+
+show the list which are in stagging 
+>> git stash list
+
+rollback the changes form the app.py
+>>git stash pop
+
+>> git add README.md app.py
+>>git commit -m "Add commit with error code"
+
+For reverting the erro code type the following
+
+git reset --hard HEAD~1
+
+![alt text](image-5.png)
